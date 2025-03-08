@@ -1,2 +1,4 @@
 # qcoding-lab.github.io
-github.io pages
+This repository contains the website for qcoding-lab.github.io.
+## Python Course
+the folder python-course contains the notice for the course.
