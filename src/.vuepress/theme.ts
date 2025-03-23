@@ -4,16 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://qcoding-lab.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Qizhe Wang",
+    url: "https://qcoding-lab.github.io",
   },
 
   logo: "/assets/images/logo1.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "qcoding-lab/qcoding-lab.github.io",
 
   docsDir: "src",
 
