@@ -10,9 +10,12 @@ export default defineUserConfig({
   description: "My personal Website",
 
   theme,
+  head:[
+    ['link', {rel:'icon', href: '/assets/images/websiteIcon.png'}]
+  ]
 
 
-  
+
 
   // Enable it with pwa
   // shouldPrefetch: false,
