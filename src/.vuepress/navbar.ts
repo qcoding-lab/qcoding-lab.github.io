@@ -4,23 +4,22 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "Posts",
+    text: "Programming notices",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/programming_notices/",
     children: [
       {
-        text: "Apple",
-        icon: "pen-to-square",
-        prefix: "apple/",
+        text: "Python cours",
+        icon: "codicon:python",
+        prefix: "python_course/",
         children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "Python Integer", icon: "codicon:python", link: "1" },
+          { text: "Python List", icon: "codicon:python", link: "2" },
+          { text: "Python Dict", icon: "codicon:python", link: "3" },
         ],
       },
       {
-        text: "Banana",
+        text: "Javascript",
         icon: "pen-to-square",
         prefix: "banana/",
         children: [
@@ -34,19 +33,21 @@ export default navbar([
             icon: "pen-to-square",
             link: "2",
           },
-          "3",
-          "4",
         ],
       },
-      { text: "Cherry", icon: "pen-to-square", link: "cherry" },
-      { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      
     ],
+
   },
   {
-    text: "V2 Docs",
-    icon: "book",
+    text: "Others",
+    icon: "hugeicons:search-02",
     link: "https://theme-hope.vuejs.press/",
   },
+
+  // {
+  //   text: "V2 Docs",
+  //   icon: "book",
+  //   link: "https://theme-hope.vuejs.press/",
+  // },
 ]);
