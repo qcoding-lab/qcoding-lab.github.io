@@ -7,6 +7,7 @@ tag:
   - red
   - small
   - round
+comment: true
 ---
 
 # Cherry
