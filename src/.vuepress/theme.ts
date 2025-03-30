@@ -164,6 +164,10 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://qcoding-lab-comments.vercel.app/",
+      comment: true,
+      pageview: true,
+      noCopyright: true,
+      dark: "auto",
     },
 
     components: {
