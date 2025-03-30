@@ -163,9 +163,9 @@ export default hopeTheme({
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Waline",
-      serverURL: "https://qcoding-lab-comments.vercel.app/",
-      comment: true,
-      pageview: true,
+      serverURL: "https://qcoding-lab-comments.vercel.app",
+      comment: true, //评论数统计
+      pageview: true, // 浏览数统计
       noCopyright: true,
       dark: "auto",
     },
