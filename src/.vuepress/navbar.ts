@@ -13,7 +13,6 @@ export default navbar([
       {
         text: "Python cours",
         icon: "codicon:python",
-        prefix: "python_course/",
         children: [
           { text: "Python Integer", icon: "codicon:python", link: "#" },
           { text: "Python List", icon: "codicon:python", link: "#" },
