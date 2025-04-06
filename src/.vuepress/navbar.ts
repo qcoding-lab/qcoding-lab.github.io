@@ -2,52 +2,46 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  // "/demo/",
+  { text: "About me", icon: "circle-user", link: "/intro"},
+
   {
     text: "Programming notices",
     icon: "pen-to-square",
-    prefix: "/programming_notices/",
+    prefix: "/posts/",
     children: [
       {
         text: "Python cours",
         icon: "codicon:python",
         prefix: "python_course/",
         children: [
-          { text: "Python Integer", icon: "codicon:python", link: "1" },
-          { text: "Python List", icon: "codicon:python", link: "2" },
-          { text: "Python Dict", icon: "codicon:python", link: "3" },
+          { text: "Python Integer", icon: "codicon:python", link: "#" },
+          { text: "Python List", icon: "codicon:python", link: "#" },
+          { text: "Python Dict", icon: "codicon:python", link: "#" },
         ],
       },
+
       {
-        text: "Javascript",
-        icon: "pen-to-square",
-        prefix: "banana/",
+        text: "Set Website",
+        icon: "",
         children: [
-          {
-            text: "Banana 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "Banana 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-        ],
-      },
-      
+          { text: "Launch Website", icon:"icon-park-outline:browser-chrome", link:"#" },
+          { text: "Navbar", icon: "icon-park-outline:browser-chrome", link: "#" },
+
+        ]
+      }
+ 
     ],
 
   },
   {
     text: "Others",
-    icon: "hugeicons:search-02",
-    link: "https://theme-hope.vuejs.press/",
+    icon: "icon-park-outline:other",
+    prefix: "/posts/",
+    children: [
+      { text: "Python Dict", icon: "codicon:python", link: "#" },
+      { text: "Python Dict", icon: "codicon:python", link: "#" },
+      { text: "Python Dict", icon: "codicon:python", link: "#" },
+    ]
   },
-
-  // {
-  //   text: "V2 Docs",
-  //   icon: "book",
-  //   link: "https://theme-hope.vuejs.press/",
-  // },
 ]);
