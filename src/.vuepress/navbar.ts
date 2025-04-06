@@ -25,7 +25,7 @@ export default navbar([
         icon: "",
         children: [
           { text: "Launch Website", icon:"icon-park-outline:browser-chrome", link:"#" },
-          { text: "Navbar", icon: "icon-park-outline:browser-chrome", link: "#" },
+          { text: "Navbar", icon: "icon-park-outline:browser-chrome", link: "set_website/set_navbar.md" },
 
         ]
       }
