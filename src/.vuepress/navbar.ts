@@ -36,9 +36,9 @@ export default navbar([
   {
     text: "Others",
     icon: "icon-park-outline:other",
-    prefix: "/posts/",
+    // prefix: "/posts/",
     children: [
-      { text: "Python Dict", icon: "codicon:python", link: "#" },
+      { text: "test", icon: "codicon:python", link: "/posts/blog-one-day" },
       { text: "Python Dict", icon: "codicon:python", link: "#" },
       { text: "Python Dict", icon: "codicon:python", link: "#" },
     ]
