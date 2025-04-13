@@ -1,5 +1,5 @@
 ---
-title: 日记
+title: 
 icon: blog
 date: 2025-04-06 18:29:44
 author: qcoding
@@ -17,7 +17,6 @@ timeline: true
 image: false
 navbar: true
 sidebarIcon: true
-headerDepth: 5
 comment: true
 lastUpdated: true
 editLink: false

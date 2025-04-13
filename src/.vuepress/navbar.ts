@@ -8,7 +8,7 @@ export default navbar([
   {
     text: "Programming notices",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/blog/",
     children: [
       {
         text: "Python cours",
@@ -38,7 +38,7 @@ export default navbar([
     icon: "icon-park-outline:other",
     // prefix: "/posts/",
     children: [
-      { text: "test", icon: "codicon:python", link: "/posts/blog-one-day" },
+      { text: "test", icon: "codicon:python", link: "/blog/test/blog-one-day" },
       { text: "Python Dict", icon: "codicon:python", link: "#" },
       { text: "Python Dict", icon: "codicon:python", link: "#" },
     ]

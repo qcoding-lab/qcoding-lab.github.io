@@ -4,6 +4,9 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+  toc: {
+    levels: [1,6]
+  },
   hostname: "https://qcoding-lab.github.io",
 
   author: {
