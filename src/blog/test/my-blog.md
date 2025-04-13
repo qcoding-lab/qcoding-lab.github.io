@@ -106,9 +106,65 @@ public class HelloWorld {
 }
 ```
 
+:::
 
+## 3. 链接插入
+
+::: md-demo 链接插入演示
+
+`[link name](url)`
+
+[qcoding-lab](https://qcoding-lab.github.io/)
+
+:::
+
+## 4. 图片插入
+
+::: md-demo 插入图片演示
+
+`[图片描述])(图片链接地址)`
+
+![image-20250413120516576](./my-blog.assets/image-20250413120516576.png)
 
 
 
 :::
 
+## 5. 有序序列
+
+::: md-demo
+
+1. Adam
+2. Berta
+3. Christian
+    	1. Hello, I’m M. Q
+    	1. 你好，我是萧炎
+4. Diana
+
+:::
+
+## 6. 无序序列
+
+::: md.demo 
+
+- Burger
+    - Hamburger
+    - Cheeseburger
+- Döner
+
+:::
+
+## 7. 数学公式
+
+7.1 基础演示
+
+::: md-demo
+
+$$x, y, z$$
+
+可以通过在 $ 字符之前使用或在 $ 字符前后添加空格来完成转义:
+方程,
+a = 1 是一个 Tex 8 =1和$a=$不是。
+Python一对一转
+
+:::
