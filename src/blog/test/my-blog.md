@@ -137,8 +137,7 @@ public class HelloWorld {
 1. Adam
 2. Berta
 3. Christian
-    	1. Hello, I’m M. Q
-    	1. 你好，我是萧炎
+     	1. Hello, I’m Mr. Q
 4. Diana
 
 :::
