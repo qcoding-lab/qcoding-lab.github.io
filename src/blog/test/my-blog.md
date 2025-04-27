@@ -144,7 +144,7 @@ public class HelloWorld {
 
 ## 6. 无序序列
 
-::: md.demo 
+::: md-demo 
 
 - Burger
     - Hamburger
@@ -167,3 +167,266 @@ a = 1 是一个 Tex 8 =1和$a=$不是。
 Python一对一转
 
 :::
+
+7.2 行内语法
+
+::: md-demo
+
+Euler's identity $e^{i\pi}+1=0$ is a beautiful formula in $\mathbb{R}^2$.
+
+:::
+
+7.3 显示语法
+
+::: md-demo
+$$
+\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
+$$
+:::
+
+-  [TeX 教程](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+
+- [Tex 速查表](https://mdit-plugins.github.io/zh/tex.html#tex-tutorial)
+
+## 8. 任务列表
+
+::: md-demo
+
+- [x] Plan A
+- [ ] Plan B
+
+:::
+
+## 9. 选项卡
+
+:::: md-demo
+
+::: tabs
+
+@tab Math
+
+$e^{i\pi}+1=0$
+
+@tab practice
+
+Nothing
+
+@tab More
+
+There is nothing more to explain
+
+:::
+
+---
+
+::: tabs#travel
+
+@tab PlanA#Peking
+
+Go to Peking
+
+@tab PlanB#Shanghai
+
+Go to Shanghai
+
+:::
+
+---
+
+::: tabs#travel
+
+@tab Peking
+
+- 天安门
+- 朝阳区
+- 人民大会堂
+
+@tab Shanghai
+
+- 上海滩
+- 东方明珠
+
+::::
+
+## 10. 代码块分组
+
+:::: md-demo
+
+::: code-tabs
+
+@tab code 1
+
+``````python
+print('hello bornforthis')
+``````
+
+@tab code 2
+
+``````Python
+a = 1
+b = 1
+print(a + b)
+``````
+
+
+
+@tab code 3
+
+``````python
+a = b = 1
+print(a)
+print(b)
+``````
+
+
+
+:::
+
+---
+
+::: code-tabs#shell
+
+@tab Python
+
+```python
+a, b, c = 1, 2, 3
+```
+
+@tab pnpm
+
+``````bash
+pnpm add -D 组件名称
+``````
+
+:::
+
+---
+
+::: code-tabs#shell
+
+@tab Python
+
+``````python
+print(a, b, c)
+``````
+
+@tab pnpm
+
+```bash
+pnpm add -D vuepress-theme-hope
+```
+
+::: 
+
+
+
+::::
+
+## 11. 行内代码
+
+::: md-demo
+
+pnpm install xxxx
+
+Test: `pnpm install xxxx`
+
+:::
+
+## 12. 提示容器
+
+:::: md-demo
+
+::: important
+
+ACHTUNG WICHTIG!
+
+:::
+
+::: info
+
+DURCHSAGE
+
+:::
+
+::: note
+
+Notitzen
+
+:::
+
+::: tip
+
+:::
+
+::: warning
+
+:::
+
+::: caution
+
+:::
+
+::: details
+
+HAHA! Umsonst gedrückt
+
+:::
+
+::::
+
+## 13. 标记
+
+::: md-demo
+
+Hello ==world==
+
+:::
+
+## 14. 剧透
+
+::: md-demo
+
+Hello !!world!!
+
+:::
+
+## 15. 自定义对齐
+
+:::: md-demo
+
+::: left
+
+Text-align: left
+
+:::
+
+::: center
+
+Text-Align: center
+
+:::
+
+::: right
+
+Text-align: right
+
+:::
+
+::::
+
+## 16. 文章加密
+
+Open: theme.ts
+
+```typescript
+encrypt: {
+    config: {
+        // 这会加密整个 guide 目录，并且两个密码都是可用的
+        "/guide/": ["1234", "5678"],
+        // 这只会加密 /config/page.html
+        "/config/page.html": ["1234", "1234343"],
+    }
+}
+```
+

@@ -32,10 +32,11 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
+      "/blog/set_website/set_navbar.html": ["password","test"],
+      // "/blog/set_website/": {
+      //   hint: "Password hint abcd",
+      //   password: "abcd"
+      // },
     },
   },
 
