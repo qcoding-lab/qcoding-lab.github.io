@@ -16,6 +16,7 @@ lastUpdated: true
 editLink: true
 backToTop: true
 toc: true
+changelog: true
 ---
 
 ## 1. 标题编写
