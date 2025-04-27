@@ -29,7 +29,7 @@ export default hopeTheme({
   footer: "Default footer",
 
   displayFooter: true,
-
+  changelog: true,
   encrypt: {
     config: {
       "/blog/set_website/set_navbar.html": ["password","test"],
