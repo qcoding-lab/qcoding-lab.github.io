@@ -23,9 +23,10 @@ export default navbar([
       {
         text: "Set Website",
         icon: "",
+        prefix: "/blog/set_website/",
         children: [
-          { text: "Launch Website", icon:"icon-park-outline:browser-chrome", link:"#" },
-          { text: "Navbar", icon: "icon-park-outline:browser-chrome", link: "set_website/set_navbar.md" },
+          { text: "Create Website", icon:"icon-park-outline:browser-chrome", link:"create-website.md" },
+          { text: "Navbar", icon: "icon-park-outline:browser-chrome", link: "set_navbar.md" },
 
         ]
       }
