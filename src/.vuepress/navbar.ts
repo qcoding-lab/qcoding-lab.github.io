@@ -8,13 +8,14 @@ export default navbar([
   {
     text: "Programming notices",
     icon: "pen-to-square",
-    prefix: "/blog/",
+    // prefix: "/blog/",
     children: [
       {
         text: "Python cours",
         icon: "codicon:python",
+        prefix: "python-notices/",
         children: [
-          { text: "Python Integer", icon: "codicon:python", link: "#" },
+          { text: "Python variables", icon: "codicon:python", link: "variables.md" },
           { text: "Python List", icon: "codicon:python", link: "#" },
           { text: "Python Dict", icon: "codicon:python", link: "#" },
         ],
