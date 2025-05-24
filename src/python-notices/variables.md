@@ -135,3 +135,71 @@ a = b = c = 1
 print(a, b, c)
 ```
 
+### 4.2 同时赋值多个变量不同的值
+
+```python
+a, b, c = 1, 2, 3
+print(a, b, c)
+# --output--
+# 1 2 3
+```
+
+## 5. 测试
+
+![image-20250518111554023](./variables.assets/image-20250518111554023.png)
+
+```python
+Austin_cup = "Coke"     # 该赋值可以理解为从饮料瓶倒果汁的过程
+Jaden_cup = "juice"     # 该赋值可以理解为从饮料瓶倒果汁的过程
+
+print("Austin 杯子现在装的饮料", Austin_cup)
+print("Jaden 杯子现在装的饮料", Jaden_cup)
+
+# code 1
+# Austin_cup_backup = Austin_cup
+# Austin_cup = Jaden_cup
+# Jaden_cup = Austin_cup_backup
+
+# code2
+Jaden_cup, Austin_cup = Austin_cup, Jaden_cup
+# 原理:Python运行时会先取值，再赋值
+
+print("交换之后......")
+print("Austin 杯子现在装的饮料", Austin_cup)
+print("Jaden 杯子现在装的饮料", Jaden_cup)
+```
+
+## 6. 变量命名规则
+
+- 大小写英文，数字和_的结合，且不能用数字开头
+- Python中的变量名分大小写
+- 系统关键词不能做变量名使用（列表：help(‘keywords’)）
+- 不要使用python的内置函数名称做变量名
+
+### 6.1 Python区分大小写
+
+```python
+n = "A"
+N = "a"
+print(n) # --A
+# 区分大小写
+```
+
+### 6.2 内置函数命名
+
+```python
+int = 3
+text = '1'
+text = int(text) # TypeError: 'int' object is not callable
+print(text)
+# Python会改变内置函数
+```
+
+```python
+# as = "abc"
+As = "abc"
+aS = "abc"
+AS = "abc"
+# 可以利用Python区分变量大小写命名内置函数
+```
+
